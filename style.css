@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;
+    background: url(img/image.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 55%;
+    margin-top: 150px;
+}
+
+input {
+    width: 80%;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background: #140F26;
+    opacity: 0.8;
+    margin-top: 30px;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+#password {
+    margin-top: 10px;
+}
+
+#sign {
+    border: none;
+    border-radius: 50px;
+    width: 80%;
+    height: 50px;
+    background: linear-gradient(#6456ff 50%, #3721fb);
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#sign:active {
+    box-shadow: 0 3px black;
+    transform: translateY(4px);
+}
+
+#facebook-button {
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background: #140F26;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+#facebook-button:active {
+    background: white;
+    color: black;
+}
+
+#div-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 80%;
+    flex-direction: row;
+    color: white;
+    font-size: large;
+}
